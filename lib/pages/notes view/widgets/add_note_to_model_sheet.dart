@@ -13,9 +13,9 @@ class AddNoteToModelSheet extends StatelessWidget {
         child: Column(
           children: [
             SizedBox(height: 24),
-            CustomTextField(hint: 'Tittle'),
+            CustomTextField(hint: 'Title'),
             SizedBox(height: 18),
-            CustomTextField(hint: 'contant', lins: 5),
+            CustomTextField(hint: 'Content', lines: 5),
             SizedBox(height: 70),
             Custombutton(text: "Add"),
             SizedBox(height: 30),
