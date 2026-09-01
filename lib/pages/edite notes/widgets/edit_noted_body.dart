@@ -14,9 +14,9 @@ class EditNotedBody extends StatelessWidget {
           SizedBox(height: 50),
           CustomAppbar(title: 'Edit Notes', icon: Icons.check),
           SizedBox(height: 50),
-          CustomTextField(hint: 'Title'),
+          CustomTextFormField(hint: 'Title'),
           SizedBox(height: 18),
-          CustomTextField(hint: 'Content', lines: 5),
+          CustomTextFormField(hint: 'Content', lines: 5),
         ],
       ),
     );
