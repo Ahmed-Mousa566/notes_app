@@ -19,6 +19,8 @@ class CustomTextFormField extends StatelessWidget {
       validator: (value) {
         if (value?.isEmpty ?? true) {
           return " Field is reqauird";
+        } else {
+          return null;
         }
       },
       onSaved: onSaved,
